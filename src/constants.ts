@@ -152,3 +152,8 @@ export const LP_TRANSACTION_TYPE_DEPOSIT = ethers.toUtf8Bytes("Deposit");
 export const LP_TRANSACTION_TYPE_WITHDRAWAL = ethers.toUtf8Bytes("Withdrawal");
 
 export const DEFAULT_COUNTRY = ethers.toUtf8Bytes("International Tournaments");
+
+export const CHAIN_RPC_URLS = new Map<number, string>();
+
+CHAIN_RPC_URLS.set(100, "https://rpc.gnosis.io/");
+CHAIN_RPC_URLS.set(137, "https://rpc-mainnet.maticvigil.com/");
